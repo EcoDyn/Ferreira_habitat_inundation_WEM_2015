@@ -1,5 +1,3 @@
-*.gpkg
-*.gpkg-wal
-*.gpkg-shm
+*.gpkg*
 
-/original/
+original/
