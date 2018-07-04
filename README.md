@@ -9,8 +9,6 @@ Ferreira-Ferreira J., Silva T. S. F., Streher A. S., Affonso A. G., Furtado L. F
 
 **bounding_box**: a simple rectangular bounding box of the mapped area, to facilitate image queries and other functions. It has no attributes.
 
-
-
 **mamiraua_basic_habitats**:  layer containing only habitat classes as multi-part polygons. This should be the preferred layer for visualizing habitats only. Fields are:
 
 * `class`: habitat class name, formatted for programmatic use (e.g. `habitat_name`).
@@ -23,7 +21,6 @@ Ferreira-Ferreira J., Silva T. S. F., Streher A. S., Affonso A. G., Furtado L. F
 
 * `area_km2`: total area, in squared kilometers, for each habitat class. Values differ slightly from original publication as these are geodetic (ellipsoid-based) areas instead of planimetric. For original planimetric areas, see the `mamiraua_inundation_habitat` layer.
 
-  
 
 **mamiraua_inundation_habitat:** layer containing flood duration classes and habitat classes as originally mapped by Ferreira-Ferreira et al. (2015). Polygons correspond to the original segmentation used for classification. Fields are:
 
@@ -39,9 +36,9 @@ Ferreira-Ferreira J., Silva T. S. F., Streher A. S., Affonso A. G., Furtado L. F
 
 Both layers are available in:
 
-- ESRI Shapefile format: separate `*.shp` and associated files, in the `shapefiles`folder. There are also `.qlr`  layer definition files for loading the shapefiles into QGIS with a predefined color scheme matching the published figures.
+- **ESRI Shapefile format:** separate `*.shp` and associated files, in the `shapefiles`folder. There are also `.qlr`  layer definition files for loading the shapefiles into QGIS with a predefined color scheme matching the published figures.
 
-- Geopackage file format: single file names `mamiraua_habitats_inundation_JFF_WEM_2015.gpkg ` in the`geopackage` folder. 
+- **Geopackage file format:**  compressed file named `mamiraua_habitats_inundation_JFF_WEM_2015.zip`, in the`geopackage` folder. 
 
 - All layers are projected in `EPSG:32720` (WGS 84, UTM zone 20S) with the following associated PROJ.4 string: `"+proj=utm +zone=20 +south +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0"`
 
