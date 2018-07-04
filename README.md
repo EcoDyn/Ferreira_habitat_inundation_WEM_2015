@@ -37,16 +37,22 @@ Ferreira-Ferreira J., Silva T. S. F., Streher A. S., Affonso A. G., Furtado L. F
 
 ### **File formats**
 
-Both layers are available in ESRI Shapefile format (`*.shp` and associated files, in the `shapefiles`folder) and together as a Geopackage file (`ferreira_et_al_2015.gpkg ` in the`geopackage` folder) . All layers are projected in `EPSG:32720` (WGS 84, UTM zone 20S) with the following associated PROJ.4 string: `"+proj=utm +zone=20 +south +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0"`
+Both layers are available in:
 
+- ESRI Shapefile format: separate `*.shp` and associated files, in the `shapefiles`folder. There are also `.qlr`  layer definition files for loading the shapefiles into QGIS with a predefined color scheme matching the published figures.
 
+- Geopackage file format: single file names `mamiraua_habitats_inundation_JFF_WEM_2015.gpkg ` in the`geopackage` folder. 
+
+- All layers are projected in `EPSG:32720` (WGS 84, UTM zone 20S) with the following associated PROJ.4 string: `"+proj=utm +zone=20 +south +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0"`
+
+  
 
 **History of post-publication processing steps:**
 
-- A new habitat layer was produced by dissolving the original objects used as classification inputs, to reduce file size and complexity OK.
-- Areas were recalculated using ellpsoidal geometry for the dissolved layer. OK
-- Habitat class information was combined with the inundation duration data into a single shapefile, maintaining the original classification objects.  OK
-- Class names were modified to match names used in publication. OK
+- A new habitat layer was produced by dissolving the original objects used as classification inputs, to reduce file size and complexity.
+- Areas were recalculated using ellipsoidal geometry for the dissolved layer. 
+- Habitat class information was combined with the inundation duration data into a single shapefile, maintaining the original classification objects.  
+- Class names were modified to match names used in publication. 
 - The simple habitat and habitat + inundation shape files have been converted to geopackage format.
-- QGIS palette layers were included for available shapefiles
+- QGIS palette layers were included for available shapefiles.
 
