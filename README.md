@@ -5,6 +5,10 @@ Classification of floodplain habitats and inundation duration classes produced a
 
 Ferreira-Ferreira J., Silva T. S. F., Streher A. S., Affonso A. G., Furtado L. F. A., Forsberg B. R., Valsecchi J., Queiroz H. L., Novo E. M. L. M. (2015). Combining ALOS/PALSAR derived vegetation structure and inundation patterns to characterize major vegetation types in the Mamirauá Sustainable Development Reserve, Central Amazon floodplain, Brazil. *Wetlands Ecology and Management*, *23*(1), 41–59. https://doi.org/10.1007/s11273-014-9359-1
 
+### Licensing
+
+All maps and data shared in this page are licensed through [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
+
 ### Layers:
 
 **bounding_box**: a simple rectangular bounding box of the mapped area, to facilitate image queries and other functions. It has no attributes.
